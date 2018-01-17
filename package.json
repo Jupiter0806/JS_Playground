@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/Jupiter0806/JS_Playground/issues"
   },
-  "homepage": "https://github.com/Jupiter0806/JS_Playground#readme"
+  "homepage": "https://github.com/Jupiter0806/JS_Playground#readme",
+  "dependencies": {
+    "chalk": "^2.3.0"
+  }
 }
