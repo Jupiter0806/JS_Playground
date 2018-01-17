@@ -1,0 +1,22 @@
+{
+  "name": "js-playground",
+  "version": "1.0.0",
+  "description": "Play with it",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jupiter0806/JS_Playground.git"
+  },
+  "keywords": [
+    "js"
+  ],
+  "author": "jupyter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jupiter0806/JS_Playground/issues"
+  },
+  "homepage": "https://github.com/Jupiter0806/JS_Playground#readme"
+}
