@@ -1,0 +1,1 @@
+alert("Message from file1.js")

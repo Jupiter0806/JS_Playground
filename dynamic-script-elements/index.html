@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Script Defer Example</title>
+        <script type='text/javascript' src='./index.js'></script>
+    </head>
+
+    <body>
+        <script>
+            alert("script")
+        </script>
+        <script>
+            window.onload = function () {
+                alert("load")
+            }
+        </script>
+    </body>
+</html>
