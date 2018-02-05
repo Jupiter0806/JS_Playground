@@ -1,7 +1,8 @@
 # February 6, 2018
-- Write test files
-- Complete readme.md
-- Publish to npm
+- Write test files for js-auto-test
+- Complete readme.md for js-auto-test
+- Publish to npm for js-auto-test
+- Publish parse-commandline-arguments to npm
 
 # February 1, 2018
 - From now on, this project will include some node js moduels
