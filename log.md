@@ -3,6 +3,8 @@
 - Complete readme.md for js-auto-test
 - Publish to npm for js-auto-test
 - Publish parse-commandline-arguments to npm
+- For js-auto-test generate error message when function may not export or callback is not added as parameters in test function
+- For js-auto-test, stop node require call and run test when --local provided
 
 # February 1, 2018
 - From now on, this project will include some node js moduels
