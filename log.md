@@ -1,3 +1,6 @@
+# February 24, 2018
+- Publish js auto test
+
 # February 6, 2018
 - Write test files for js-auto-test
 - Complete readme.md for js-auto-test
