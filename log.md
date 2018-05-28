@@ -1,3 +1,6 @@
+# May 28, 2018
+- Update js auto test to make it accept function as its paramter in config
+
 # February 24, 2018
 - Publish js auto test
 
