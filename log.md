@@ -1,3 +1,6 @@
+# May 29, 2018
+- Add scope_returned_function to reveal the scope of the returned function. Could it access functions and variables defined in two sides? No!!
+
 # May 28, 2018
 - Update js auto test to make it accept function as its paramter in config
 - Update js auto test npm version and publish it
