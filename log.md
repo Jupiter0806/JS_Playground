@@ -1,3 +1,6 @@
+# August 5, 2018
+- Add connection_mariaDB
+
 # May 29, 2018
 - Add scope_returned_function to reveal the scope of the returned function. Could it access functions and variables defined in two sides? No!!
 - Fix bugs in js auto test as getErrorNameByCode is not defined
