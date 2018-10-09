@@ -1,3 +1,8 @@
+# October 9, 2018
+- Add check if array
+- Add Singleton design pattern (need more description)
+- Add react component lifecycle
+
 # August 5, 2018
 - Add connection_mariaDB
 
