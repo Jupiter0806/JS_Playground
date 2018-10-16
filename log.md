@@ -1,3 +1,6 @@
+# October 16, 2018
+- Add react-varialbe-scope to discuss the scope of a variable that is imported into this file
+
 # October 9, 2018
 - Add check if array
 - Add Singleton design pattern (need more description)
