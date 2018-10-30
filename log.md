@@ -1,3 +1,6 @@
+# October 30, 2018
+- Add customised array sort to sort an array according to options
+
 # October 16, 2018
 - Add react-varialbe-scope to discuss the scope of a variable that is imported into this file
 

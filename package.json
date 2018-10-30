@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/Jupiter0806/JS_Playground#readme",
   "dependencies": {
-    "chalk": "^2.3.0"
+    "chalk": "^2.3.0",
+    "eslint": "^5.7.0"
   }
 }
