@@ -55,7 +55,8 @@ function sortArray(array, options) {
       for (var i = subArray.lastIndex; i > subArray.lastIndex - subArray.array.length; i--) {
         array[i] = subArray.array[subArray.array.length - 1 - subArray.lastIndex + i];
       }
-    })
+    });
+    return array;
   } else {
     return array;
   }
@@ -79,5 +80,6 @@ const options = [
   { attribute: 'c', descending: true },
 ]
 
+// sorted array can get from the original array and the return of this function
 console.dir(sortArray(array, options));
-console.dir(array)
+console.dir(array);
