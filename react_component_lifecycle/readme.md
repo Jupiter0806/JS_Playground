@@ -5,7 +5,7 @@ Check those codes
 ```javascript app.js
 <App>
     <MyModal data={data} />
-<App>
+</App>
 ```
 
 ```javascript MyModal.js
@@ -24,3 +24,31 @@ Check those codes
 When App has rendered, the MyModal will be constructed, but MyPanel will not. MyPanel will be constructed when MyModal is shown.
 
 If the data from App can not be known before user actions, for exampe, MyModal is used to show details of an item in a list in App, attampts to access values in data in MyModal will cause an error saying cannot read this value of an undefiend, but attamps to access values in data in MyPanel will success. This is because, when MyPanel has been constructing, the data should hava a value.
+
+Check those codes
+```javascript live.js
+<Live>
+    <Tab1 />
+    <ApplicationsTab />
+</Live>
+```
+
+```javascript applicationsTab.js
+class {
+    render() {
+        return <LiveTable />
+    }
+}
+```
+
+```javascript LiveTable.js
+class {
+    render() {
+        <div>live table</div>
+    }
+}
+```
+
+Question:
+    would LiveTable be rendered when Tab1 is currently active and ApplicationsTab never active before?
+    
