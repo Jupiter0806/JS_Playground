@@ -24,7 +24,12 @@ function sortArray(array, options) {
   }
 
   const { attribute, descending } = options.splice(0, 1)[0];
-  array.sort((a, b) => a[attribute].toString().localeCompare(b[attribute].toString()));
+  array.sort((a, b) => {
+    if (a.hasOwnProperty(attribute) && b.hasOwnProperty(attribute)) 
+      return a[attribute].toString().localeCompare(b[attribute].toString());
+    else 
+      return 1;
+  });
   descending && array.reverse(); 
 
   if (options.length > 0) {
