@@ -1,5 +1,6 @@
 # May 13, 2018
 - Make array sort could compare between strings
+- Add import A from 'a' V.S. import * as A from 'a'. It's a standalone project and contains runnable nodejs files.
 
 # October 30, 2018
 - Add customised array sort to sort an array according to options
