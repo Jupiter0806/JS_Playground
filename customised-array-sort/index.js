@@ -1,7 +1,7 @@
 /**
  * This function can sort the given array according to the option.
  * 
- * Sample Opitons: (assuming the element is the array is an object)
+ * Sample Options: (assuming the element is the array in an object)
  *  [
  *    { attribute: 'obj_attr1', descending: true },
  *    { attribute: 'obj_attr2' }, // default is ascending
@@ -17,7 +17,7 @@
  * 
  * @returns the sorted array. The given array is also sorted.
  */
-function sortArray(array, options) {
+const sortArray = function (array, options) {
   if (!options || options.length === 0) {
     // no option specify, do the default sort
     return array.sort();
@@ -25,9 +25,13 @@ function sortArray(array, options) {
 
   const { attribute, descending } = options.splice(0, 1)[0];
   array.sort((a, b) => {
-    if (a.hasOwnProperty(attribute) && b.hasOwnProperty(attribute)) 
-      return a[attribute].toString().localeCompare(b[attribute].toString());
-    else 
+    if (a.hasOwnProperty(attribute) && b.hasOwnProperty(attribute)) {
+      if (typeof a[attribute] === 'number' && typeof b[attribute] === 'number') {
+        return a[attribute] - b[attribute];
+      } else {
+        return a[attribute].toString().localeCompare(b[attribute].toString());
+      }
+    } else 
       return 1;
   });
   descending && array.reverse(); 
@@ -66,25 +70,3 @@ function sortArray(array, options) {
     return array;
   }
 }
-
-// perform tests
-var array = [
-  { a: 1, b: 'bb', c: 2 },
-  { a: 1, b: 'aa', c: 2 },
-  { a: 1, b: 'aa', c: 1 },
-  { a: 2, b: 'aa', c: 2 },
-  { a: 2, b: 'bb', c: 1 },
-  { a: 2, b: 'bb', c: 2 },
-  { a: 1, b: 'bb', c: 1 },
-  { a: 2, b: 'aa', c: 1 },
-];
-
-const options = [
-  { attribute: 'a', descending: true },
-  { attribute: 'b', descending: false },
-  { attribute: 'c', descending: true },
-]
-
-// sorted array can get from the original array and the return of this function
-console.dir(sortArray(array, options));
-console.dir(array);

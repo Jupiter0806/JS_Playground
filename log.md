@@ -1,3 +1,6 @@
+# May 13, 2018
+- Make array sort could compare between strings
+
 # October 30, 2018
 - Add customised array sort to sort an array according to options
 - Return array in customised array sort
