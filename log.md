@@ -1,3 +1,12 @@
+# May 13, 2018
+- Make array sort could compare between strings
+- Add import A from 'a' V.S. import * as A from 'a'. It's a standalone project and contains runnable nodejs files.
+
+# October 30, 2018
+- Add customised array sort to sort an array according to options
+- Return array in customised array sort
+- array sort, add has own property check to ensure both A and B has the attribute
+
 # October 16, 2018
 - Add react-varialbe-scope to discuss the scope of a variable that is imported into this file
 

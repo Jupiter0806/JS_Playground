@@ -1,0 +1,14 @@
+{
+  "name": "import-start-vs-import-default",
+  "version": "1.0.0",
+  "main": "./setup.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/register": "^7.4.4"
+  },
+  "scripts": {
+    "start": "node ./"
+  }
+}
