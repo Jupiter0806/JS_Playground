@@ -35,3 +35,8 @@ Allow users to manager tasks among a week, or other periods of time. For example
 - 3. The server returns with the found results
 - 4. Users add more feedback, e.g. Cloude is more for coding purpose, so for a complex project, it might be more able to understand what is the users real requests, while gpt is more for general purpose, so it might think more boardly and provide a diff answer.
 - 5. The server add the new feedback under the task
+
+## 5. Reminder of coming tasks
+
+- 1. Users had created a tasks at a certain time.
+- 2. Server is aware of the coming task, and send notifications to users as a reminder. This can help users to make a plan in advance.
